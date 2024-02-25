@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="signup.asp" method="post">
+        Name: <input type="text" name="username" required pattern="^[A-Za-z]$" />
+        <button type="submit">Click</button>
+        <input type="button" value="click" />
+        <br></br>
+        Email: <input type="email" name="email" required />
+        <br></br>
+        password: <input type="password" name="password" minlength="6" maxlength="9"/>
+        <br></br>
+        DOB: <input type="date" name="DOB" />
+        <br></br>
+        Gender: 
+        Male: <input type="radio" name="gender" value="male"/>
+        Female: <input type="radio" name="gender" value="female"/>
+        <br></br>
+        Age: <input type="number" name="age" min="0" />
+    </form>
+    
+</body>
+</html>
